@@ -11,8 +11,8 @@ output1 = (word1+ " " + word2) # str: join word1 and word2 with space in between
 print (output1)
 output2 = word1[:4] + "-" + word2[-4:] # str: join first four letters of word1 and last four letters of word 2 with a hyphen "-" in between
 print (output2)
-output3 = ... # str: join the word3 and n1 with a space in between
-
+output3 = word3 + " " + str(n1) # str: join the word3 and n1 with a space in between
+print (output3)
 output4 = ...# str: just the hypen "-" repeated 50 times
 
 output5 = ... # str: just the hypen "-" repeated n2 times
