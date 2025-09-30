@@ -36,3 +36,14 @@ print (type (q))
 s = ("555""[2]")
 print (type (s))
 
+# What will be the output type of the expression print('True')?
+t = (print('True'))
+print (type (t))
+
+# What will be the output type of the expression 5 + float(2)?
+u = (5 + float(2))
+print (type (u))
+
+#What will be the output type of the expression int(5.0) + float("2")?
+v = (int(5.0) + float("2"))
+print (type (v))
