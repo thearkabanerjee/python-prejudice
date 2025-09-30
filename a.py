@@ -13,12 +13,12 @@ output2 = word1[:4] + "-" + word2[-4:] # str: join first four letters of word1 a
 print (output2)
 output3 = word3 + " " + str(n1) # str: join the word3 and n1 with a space in between
 print (output3)
-output4 = ...# str: just the hypen "-" repeated 50 times
-
-output5 = ... # str: just the hypen "-" repeated n2 times
-
-output6 = ... # str: repeat the number n1, n2 times
-
+output4 = ("-" * 50)# str: just the hypen "-" repeated 50 times
+print (output4)
+output5 = "-" * n2 # str: just the hypen "-" repeated n2 times
+print (output5)
+output6 =  str(n1) * n2 # str: repeat the number n1, n2 times
+print  (output6)
 are_all_words_equal = ... # bool: True if all three words are equal
 
 is_word1_comes_before_other_two = ... # bool: True if word1 comes before word2 and word3 assume all words are different
