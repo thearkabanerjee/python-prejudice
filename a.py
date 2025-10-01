@@ -19,9 +19,9 @@ output5 = "-" * n2 # str: just the hypen "-" repeated n2 times
 print (output5)
 output6 =  str(n1) * n2 # str: repeat the number n1, n2 times
 print  (output6)
-are_all_words_equal = ... # bool: True if all three words are equal
+are_all_words_equal = (word1 == word2 == word3) # bool: True if all three words are equal
 
-is_word1_comes_before_other_two = ... # bool: True if word1 comes before word2 and word3 assume all words are different
+is_word1_comes_before_other_two = (word1 < word2 and word1 < word3) # bool: True if word1 comes before word2 and word3 assume all words are different
 
 has_h = ... # bool: True if word1 has the letter h
 
