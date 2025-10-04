@@ -9,10 +9,13 @@ z = input()
 x1, x2 = x2, x1
 
 # do a circular swap of `y1`, `y2` and `y3`  like y1 = y2, y2 = y3, y3 = y1 
+y1, y2, y3 = y2, y3, y1
 
 # create a new variable `a` with the value of `z`
+a = (z)
 
 # delete the variable `z`
+del (z)
 
 print(x1)
 print(x2)
