@@ -9,9 +9,3 @@ output3 = """Three single quotes ''' and three double quotes \"\"\""""
 
 # Double forward slash // and Double backward slash \\
 output4 = """Double forward slash // and Double backward slash \\\\"""
-
-
-print (output1)
-print (output2)
-print (output3) 
-print (output4)
