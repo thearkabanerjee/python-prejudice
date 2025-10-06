@@ -3,6 +3,7 @@
 import numpy as np
 
 # first we are importing the numpy library
+a = np.random.randint(1,10)
+print(a)
 
-print(np.random.randint(1,10, 6))
 
