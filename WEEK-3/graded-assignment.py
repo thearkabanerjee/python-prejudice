@@ -18,3 +18,4 @@ print("outside loop, the value of x is ", x)
 
 # code 1 and code 2 will return the same value
 
+# code 1
