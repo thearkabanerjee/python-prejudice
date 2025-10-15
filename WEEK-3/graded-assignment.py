@@ -6,3 +6,4 @@ for char in 'a1b2c3d4e5':
         continue
     print(char, end = '')  # there is no space between the quotes
 print('|')
+
