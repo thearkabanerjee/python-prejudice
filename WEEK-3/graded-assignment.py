@@ -19,3 +19,8 @@ print("outside loop, the value of x is ", x)
 # code 1 and code 2 will return the same value
 
 # code 1
+x = 0
+x_ = 1
+for i in range(10):
+    x, x_ = x_, x + x_
+print(x)
