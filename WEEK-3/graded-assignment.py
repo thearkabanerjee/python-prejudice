@@ -7,3 +7,5 @@ for char in 'a1b2c3d4e5':
     print(char, end = '')  # there is no space between the quotes
 print('|')
 
+# if the while loop of the below code executes, what does it terminates
+
