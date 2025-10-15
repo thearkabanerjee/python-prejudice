@@ -42,3 +42,5 @@ for char in word:
     encoded_char = alpha[shifted_index]
     encoded_word += encoded_char
 print(encoded_word)
+
+
