@@ -1,22 +1,30 @@
-# consider the following code:
+# # consider the following code:
 
-text = ">>> Hello world <<<"
+# text = ">>> Hello world <<<"
 
-to_strip = 'o'
+# to_strip = 'o'
 
-A = text.strip(to_strip)
-print (A)
+# A = text.strip(to_strip)
+# print (A)
 
-B = text.lstrip(to_strip)
+# B = text.lstrip(to_strip)
 
-print (B)
+# print (B)
 
 
-C = text.strip()
-print (C)
+# C = text.strip()
+# print (C)
 
-# what i learnt :
-"""
-strip(argument) -> strips out that from the string
+# # what i learnt :
+# """
+# strip(argument) -> strips out that from the sides of the string 
 
-"""
+# """
+
+
+# good example
+a = "ohelloworldo"
+o = "o"
+astrip = a.strip(o)
+
+print (astrip)
