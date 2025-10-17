@@ -1,8 +1,8 @@
 # consider the following code:
 
-text = ">>>>> Hello world <<<<"
+text = ">>> Hello world <<<"
 
-to_strip = '><'
+to_strip = 'o'
 
 A = text.strip(to_strip)
 print (A)
