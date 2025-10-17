@@ -13,4 +13,7 @@ for char in sentence:
     if char in vowels:
         count += 1
     
-print (count)
+print (count) # works very well written code
+
+# snippet -2 
+
