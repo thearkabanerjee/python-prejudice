@@ -3,3 +3,14 @@
 
 # snippet 1 
 
+sentence = input()
+
+count = 0
+
+vowels = set("aeiouAEIOU")
+
+for char in sentence:
+    if char in vowels:
+        count += 1
+    
+print (count)
