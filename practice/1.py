@@ -19,7 +19,7 @@
 # """
 # strip(argument) -> strips out that from the sides of the string 
 # lstrip (argument) -> strips from the left side
-
+# rstrip (argument) -> strips form the right side of the string
 
 # """
 
