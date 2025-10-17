@@ -17,3 +17,12 @@ print (count) # works very well written code
 
 # snippet -2 
 
+sentence = input ()
+
+count = 0 
+
+for char in sentence.lower():
+    if char in ['a', 'e', 'i', 'o', 'u']:
+        count += 1
+
+print (count) # works both yayy
