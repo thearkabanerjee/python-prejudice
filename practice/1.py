@@ -18,6 +18,8 @@
 # # what i learnt :
 # """
 # strip(argument) -> strips out that from the sides of the string 
+# lstrip (argument) -> strips from the left side
+
 
 # """
 
