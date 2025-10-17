@@ -14,3 +14,9 @@ print (B)
 
 C = text.strip()
 print (C)
+
+# what i learnt :
+"""
+strip(argument) -> strips out that from the string
+
+"""
